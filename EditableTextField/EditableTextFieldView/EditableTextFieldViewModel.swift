@@ -7,16 +7,29 @@
 
 import SwiftUI
 
+/// EditableTextFieldViewModel is responsible for the presentation logic
 final class EditableTextFieldViewModel:ObservableObject{
-    
+    // words count publish variable
     @Published var wordsCount = "Words count : 0"
+    // Published variable for the text which user will enter into the text field
     @Published var inputText:String = "This is a random entered text."
     
+    // Counting the words from the entered text by user into the textfield
     func updateWordsCount(){
-        wordsCount = "Words count : \(inputText.count)"
+        wordsCount =  "Words count : \(inputText.calculateWords)"
+    }
+    
+    // Placeholder for the input text field
+    var placeholderForTextField:String{
+        "Enter the text you want.."
+    }
+    
+    var viewTitle:String{
+        "EditableTextFieldView"
     }
     
     init(){
+        // Doing this to calculate the initial value of the wordsCount from initial random inputText
         updateWordsCount()
     }
 }
