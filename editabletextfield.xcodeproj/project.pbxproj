@@ -12,6 +12,7 @@
 		FAB6A6122860D1FE00CFE41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6A6112860D1FE00CFE41E /* Assets.xcassets */; };
 		FAB6A6152860D1FE00CFE41E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6A6142860D1FE00CFE41E /* Preview Assets.xcassets */; };
 		FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */; };
+		FAB6A63D2860EE6A00CFE41E /* EditableTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		FAB6A6142860D1FE00CFE41E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAB6A61A2860D1FE00CFE41E /* editabletextfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = editabletextfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderViewModifier.swift; sourceTree = "<group>"; };
+		FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB6A60F2860D1FB00CFE41E /* EditableTextFieldView.swift */,
+				FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */,
 			);
 			path = EditableTextFieldView;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6A63D2860EE6A00CFE41E /* EditableTextFieldViewModel.swift in Sources */,
 				FAB6A6102860D1FB00CFE41E /* EditableTextFieldView.swift in Sources */,
 				FAB6A60E2860D1FB00CFE41E /* EditableTextFieldApp.swift in Sources */,
 				FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */,

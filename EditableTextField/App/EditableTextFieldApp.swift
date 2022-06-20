@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct EditableTextFieldApp: App {
+    @StateObject var viewModel = EditableTextFieldViewModel()
     var body: some Scene {
         WindowGroup {
-            EditableTextFieldView()
+            NavigationView{
+                EditableTextFieldView(viewModel: viewModel)
+            }
         }
     }
 }
