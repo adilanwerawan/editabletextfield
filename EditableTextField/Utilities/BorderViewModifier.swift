@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+/// View Modifier for setting the border, rounded rectangle and the shadow to border
 struct BorderViewModifier:ViewModifier {
     func body(content: Content) -> some View {
         content
