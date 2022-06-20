@@ -14,6 +14,8 @@
 		FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */; };
 		FAB6A63D2860EE6A00CFE41E /* EditableTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */; };
 		FAB6A6402860FF4B00CFE41E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63F2860FF4B00CFE41E /* String+Extension.swift */; };
+		FAB6A642286103C700CFE41E /* EditableTextFieldViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */; };
+		FAB6A6442861052100CFE41E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A6432861052100CFE41E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderViewModifier.swift; sourceTree = "<group>"; };
 		FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewModel.swift; sourceTree = "<group>"; };
 		FAB6A63F2860FF4B00CFE41E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewModelTests.swift; sourceTree = "<group>"; };
+		FAB6A6432861052100CFE41E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		FAB6A61D2860D1FE00CFE41E /* EditableTextFieldTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */,
+				FAB6A6432861052100CFE41E /* Constants.swift */,
 			);
 			path = EditableTextFieldTests;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 					};
 					FAB6A6192860D1FE00CFE41E = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = FAB6A6092860D1FB00CFE41E;
 					};
 				};
@@ -240,6 +247,7 @@
 				FAB6A60E2860D1FB00CFE41E /* EditableTextFieldApp.swift in Sources */,
 				FAB6A6402860FF4B00CFE41E /* String+Extension.swift in Sources */,
 				FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */,
+				FAB6A6442861052100CFE41E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6A642286103C700CFE41E /* EditableTextFieldViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +447,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -451,6 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samples.editabletextfieldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/editabletextfield.app/editabletextfield";
@@ -462,6 +473,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

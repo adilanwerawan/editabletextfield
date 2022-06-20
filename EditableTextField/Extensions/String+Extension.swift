@@ -8,6 +8,7 @@
 import Foundation
 
 extension String{
+    // Words calculation logic inside the sentence
     var calculateWords:Int{
         self.split { !$0.isLetter }.count
     }
