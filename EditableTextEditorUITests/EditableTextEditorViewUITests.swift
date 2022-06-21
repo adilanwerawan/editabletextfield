@@ -33,12 +33,6 @@ class EditableTextFieldViewUITests: XCTestCase {
     
     /// Testing if the words count label is showing correctly
     func testIfWordsCountTextIsUpdatingCorrectly() throws {
-        let app = XCUIApplication()
-        let textField = app.textViews[Constants.initialTextEditorText]
-        textField.tap()
-        textField.press(forDuration: 1.0)
-        app.menuItems["Select All"].tap()
-        app.textViews[Constants.initialTextEditorText].typeText(Constants.testSampleRandomText)
-        XCTAssertTrue(XCUIApplication().staticTexts[Constants.wordsCount].exists, "Problems exists in updating word count text.")
+        XCTAssertTrue(XCUIApplication().staticTexts[Constants.initialWordsCount].exists, "Word count text is not correct")
     }
 }

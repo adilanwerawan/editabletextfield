@@ -28,6 +28,10 @@ final class EditableTextEditorViewModel:ObservableObject{
         "Home"
     }
     
+    var doneButtonTitle:String{
+        "Done"
+    }
+    
     init(){
         // Doing this to calculate the initial value of the wordsCount from initial random inputText
         updateWordsCount()
