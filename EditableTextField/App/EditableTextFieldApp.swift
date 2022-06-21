@@ -15,6 +15,7 @@ struct EditableTextFieldApp: App {
             NavigationView{
                 EditableTextFieldView(viewModel: viewModel)
             }
+            .navigationViewStyle(.stack)
         }
     }
 }

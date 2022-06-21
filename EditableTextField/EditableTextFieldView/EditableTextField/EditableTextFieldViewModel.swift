@@ -20,12 +20,12 @@ final class EditableTextFieldViewModel:ObservableObject{
     }
     
     // Placeholder for the input text field
-    var placeholderForTextField:String{
+    var enterYourTextLabelValue:String{
         "Enter the text you want.."
     }
     
     var viewTitle:String{
-        "EditableTextFieldView"
+        "Home"
     }
     
     init(){

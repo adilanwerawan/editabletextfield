@@ -9,17 +9,19 @@ import Foundation
 import SwiftUI
 /// View Modifier for setting the border, rounded rectangle and the shadow to border
 struct BorderViewModifier:ViewModifier {
+    let padding = 5.0
+    let cornerRadius = 10.0
+    let opacity = 0.5
+    let lineWidth = 1.0
+    
     func body(content: Content) -> some View {
         content
-            .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-            .background(Color.white)
+            .padding(EdgeInsets(top: padding, leading: padding, bottom: padding, trailing: padding))
             .overlay(
-                RoundedRectangle(cornerRadius: 8)
-                    .stroke(lineWidth: 1)
-                    .foregroundColor(Color.gray)
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .stroke(lineWidth: lineWidth)
+                    .foregroundColor(Color.gray.opacity(opacity))
             )
-            .shadow(color: Color.gray.opacity(0.4), radius: 3, x: 1, y: 2)
-
     }
 }
 extension View {

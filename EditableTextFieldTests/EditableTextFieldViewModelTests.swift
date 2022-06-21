@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import editabletextfield
+@testable import EditableTextField
 
 class EditableTextFieldViewModelTests: XCTestCase {
 
@@ -46,6 +46,6 @@ class EditableTextFieldViewModelTests: XCTestCase {
     /// Text if text field placeholder is correct
     func testIfTextFieldPlaceholderIsCorrect() throws{
         // Then
-        XCTAssertEqual(subject?.placeholderForTextField, "Enter the text you want..")
+        XCTAssertEqual(subject?.enterYourTextLabelValue, "Enter the text you want..")
     }
 }
