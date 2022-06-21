@@ -6,15 +6,15 @@
 //
 
 import XCTest
-@testable import EditableTextField
+@testable import EditableTextEditor
 
 class EditableTextFieldViewModelTests: XCTestCase {
 
-    var subject:EditableTextFieldViewModel?
+    var subject:EditableTextEditorViewModel?
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        subject = EditableTextFieldViewModel()
+        subject = EditableTextEditorViewModel()
     }
 
     override func tearDownWithError() throws {

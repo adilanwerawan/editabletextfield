@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAB6A60E2860D1FB00CFE41E /* EditableTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A60D2860D1FB00CFE41E /* EditableTextFieldApp.swift */; };
-		FAB6A6102860D1FB00CFE41E /* EditableTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A60F2860D1FB00CFE41E /* EditableTextFieldView.swift */; };
+		FAB6A60E2860D1FB00CFE41E /* EditableTextEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A60D2860D1FB00CFE41E /* EditableTextEditorApp.swift */; };
+		FAB6A6102860D1FB00CFE41E /* EditableTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A60F2860D1FB00CFE41E /* EditableTextEditorView.swift */; };
 		FAB6A6122860D1FE00CFE41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6A6112860D1FE00CFE41E /* Assets.xcassets */; };
 		FAB6A6152860D1FE00CFE41E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6A6142860D1FE00CFE41E /* Preview Assets.xcassets */; };
 		FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */; };
-		FAB6A63D2860EE6A00CFE41E /* EditableTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */; };
+		FAB6A63D2860EE6A00CFE41E /* EditableTextEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63C2860EE6A00CFE41E /* EditableTextEditorViewModel.swift */; };
 		FAB6A6402860FF4B00CFE41E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63F2860FF4B00CFE41E /* String+Extension.swift */; };
-		FAB6A642286103C700CFE41E /* EditableTextFieldViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */; };
-		FAB6A655286109BA00CFE41E /* EditableTextFieldViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A654286109BA00CFE41E /* EditableTextFieldViewUITests.swift */; };
+		FAB6A642286103C700CFE41E /* EditableTextEditorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A641286103C700CFE41E /* EditableTextEditorViewModelTests.swift */; };
+		FAB6A655286109BA00CFE41E /* EditableTextEditorViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A654286109BA00CFE41E /* EditableTextEditorViewUITests.swift */; };
 		FAB6A65628610DF300CFE41E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A6432861052100CFE41E /* Constants.swift */; };
 		FAB6A65728610DF400CFE41E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A6432861052100CFE41E /* Constants.swift */; };
 		FAB6A65828610F0F00CFE41E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6A63F2860FF4B00CFE41E /* String+Extension.swift */; };
@@ -40,19 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAB6A60A2860D1FB00CFE41E /* EditableTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB6A60D2860D1FB00CFE41E /* EditableTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldApp.swift; sourceTree = "<group>"; };
-		FAB6A60F2860D1FB00CFE41E /* EditableTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldView.swift; sourceTree = "<group>"; };
+		FAB6A60A2860D1FB00CFE41E /* EditableTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableTextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB6A60D2860D1FB00CFE41E /* EditableTextEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextEditorApp.swift; sourceTree = "<group>"; };
+		FAB6A60F2860D1FB00CFE41E /* EditableTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextEditorView.swift; sourceTree = "<group>"; };
 		FAB6A6112860D1FE00CFE41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB6A6142860D1FE00CFE41E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAB6A61A2860D1FE00CFE41E /* EditableTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditableTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB6A61A2860D1FE00CFE41E /* EditableTextEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditableTextEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6A63A2860D80200CFE41E /* BorderViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderViewModifier.swift; sourceTree = "<group>"; };
-		FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewModel.swift; sourceTree = "<group>"; };
+		FAB6A63C2860EE6A00CFE41E /* EditableTextEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextEditorViewModel.swift; sourceTree = "<group>"; };
 		FAB6A63F2860FF4B00CFE41E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewModelTests.swift; sourceTree = "<group>"; };
+		FAB6A641286103C700CFE41E /* EditableTextEditorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextEditorViewModelTests.swift; sourceTree = "<group>"; };
 		FAB6A6432861052100CFE41E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		FAB6A6492861097D00CFE41E /* EditableTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditableTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB6A654286109BA00CFE41E /* EditableTextFieldViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextFieldViewUITests.swift; sourceTree = "<group>"; };
+		FAB6A6492861097D00CFE41E /* EditableTextEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditableTextEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB6A654286109BA00CFE41E /* EditableTextEditorViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextEditorViewUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,22 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA5BC4182861D00300E135CE /* EditableTextField */ = {
+		FA5BC4182861D00300E135CE /* EditableTextEditor */ = {
 			isa = PBXGroup;
 			children = (
-				FAB6A60F2860D1FB00CFE41E /* EditableTextFieldView.swift */,
-				FAB6A63C2860EE6A00CFE41E /* EditableTextFieldViewModel.swift */,
+				FAB6A60F2860D1FB00CFE41E /* EditableTextEditorView.swift */,
+				FAB6A63C2860EE6A00CFE41E /* EditableTextEditorViewModel.swift */,
 			);
-			name = EditableTextField;
-			path = ../EditableTextFieldView/EditableTextField;
+			name = EditableTextEditor;
+			path = ../EditableTextFieldView/EditableTextEditor;
 			sourceTree = "<group>";
 		};
 		FAB6A6012860D1FB00CFE41E = {
 			isa = PBXGroup;
 			children = (
-				FAB6A60C2860D1FB00CFE41E /* EditableTextField */,
-				FAB6A61D2860D1FE00CFE41E /* EditableTextFieldTests */,
-				FAB6A64A2861097D00CFE41E /* EditableTextFieldUITests */,
+				FAB6A60C2860D1FB00CFE41E /* EditableTextEditor */,
+				FAB6A61D2860D1FE00CFE41E /* EditableTextEditorTests */,
+				FAB6A64A2861097D00CFE41E /* EditableTextEditorUITests */,
 				FAB6A60B2860D1FB00CFE41E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,14 +103,14 @@
 		FAB6A60B2860D1FB00CFE41E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAB6A60A2860D1FB00CFE41E /* EditableTextField.app */,
-				FAB6A61A2860D1FE00CFE41E /* EditableTextFieldTests.xctest */,
-				FAB6A6492861097D00CFE41E /* EditableTextFieldUITests.xctest */,
+				FAB6A60A2860D1FB00CFE41E /* EditableTextEditor.app */,
+				FAB6A61A2860D1FE00CFE41E /* EditableTextEditorTests.xctest */,
+				FAB6A6492861097D00CFE41E /* EditableTextEditorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAB6A60C2860D1FB00CFE41E /* EditableTextField */ = {
+		FAB6A60C2860D1FB00CFE41E /* EditableTextEditor */ = {
 			isa = PBXGroup;
 			children = (
 				FAB6A63E2860FF3A00CFE41E /* Extensions */,
@@ -120,7 +120,7 @@
 				FAB6A6112860D1FE00CFE41E /* Assets.xcassets */,
 				FAB6A6132860D1FE00CFE41E /* Preview Content */,
 			);
-			path = EditableTextField;
+			path = EditableTextEditor;
 			sourceTree = "<group>";
 		};
 		FAB6A6132860D1FE00CFE41E /* Preview Content */ = {
@@ -131,19 +131,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAB6A61D2860D1FE00CFE41E /* EditableTextFieldTests */ = {
+		FAB6A61D2860D1FE00CFE41E /* EditableTextEditorTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAB6A641286103C700CFE41E /* EditableTextFieldViewModelTests.swift */,
+				FAB6A641286103C700CFE41E /* EditableTextEditorViewModelTests.swift */,
 				FAB6A6432861052100CFE41E /* Constants.swift */,
 			);
-			path = EditableTextFieldTests;
+			path = EditableTextEditorTests;
 			sourceTree = "<group>";
 		};
 		FAB6A6372860D2C600CFE41E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				FAB6A60D2860D1FB00CFE41E /* EditableTextFieldApp.swift */,
+				FAB6A60D2860D1FB00CFE41E /* EditableTextEditorApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 		FAB6A6382860D2D800CFE41E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				FA5BC4182861D00300E135CE /* EditableTextField */,
+				FA5BC4182861D00300E135CE /* EditableTextEditor */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -172,20 +172,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		FAB6A64A2861097D00CFE41E /* EditableTextFieldUITests */ = {
+		FAB6A64A2861097D00CFE41E /* EditableTextEditorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FAB6A654286109BA00CFE41E /* EditableTextFieldViewUITests.swift */,
+				FAB6A654286109BA00CFE41E /* EditableTextEditorViewUITests.swift */,
 			);
-			path = EditableTextFieldUITests;
+			path = EditableTextEditorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAB6A6092860D1FB00CFE41E /* EditableTextField */ = {
+		FAB6A6092860D1FB00CFE41E /* EditableTextEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAB6A62E2860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextField" */;
+			buildConfigurationList = FAB6A62E2860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditor" */;
 			buildPhases = (
 				FAB6A6062860D1FB00CFE41E /* Sources */,
 				FAB6A6072860D1FB00CFE41E /* Frameworks */,
@@ -195,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = EditableTextField;
+			name = EditableTextEditor;
 			productName = editabletextfield;
-			productReference = FAB6A60A2860D1FB00CFE41E /* EditableTextField.app */;
+			productReference = FAB6A60A2860D1FB00CFE41E /* EditableTextEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAB6A6192860D1FE00CFE41E /* EditableTextFieldTests */ = {
+		FAB6A6192860D1FE00CFE41E /* EditableTextEditorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAB6A6312860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextFieldTests" */;
+			buildConfigurationList = FAB6A6312860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditorTests" */;
 			buildPhases = (
 				FAB6A6162860D1FE00CFE41E /* Sources */,
 				FAB6A6172860D1FE00CFE41E /* Frameworks */,
@@ -213,14 +213,14 @@
 			dependencies = (
 				FAB6A61C2860D1FE00CFE41E /* PBXTargetDependency */,
 			);
-			name = EditableTextFieldTests;
+			name = EditableTextEditorTests;
 			productName = editabletextfieldTests;
-			productReference = FAB6A61A2860D1FE00CFE41E /* EditableTextFieldTests.xctest */;
+			productReference = FAB6A61A2860D1FE00CFE41E /* EditableTextEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAB6A6482861097D00CFE41E /* EditableTextFieldUITests */ = {
+		FAB6A6482861097D00CFE41E /* EditableTextEditorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAB6A6512861097D00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextFieldUITests" */;
+			buildConfigurationList = FAB6A6512861097D00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditorUITests" */;
 			buildPhases = (
 				FAB6A6452861097D00CFE41E /* Sources */,
 				FAB6A6462861097D00CFE41E /* Frameworks */,
@@ -231,9 +231,9 @@
 			dependencies = (
 				FAB6A6502861097D00CFE41E /* PBXTargetDependency */,
 			);
-			name = EditableTextFieldUITests;
+			name = EditableTextEditorUITests;
 			productName = EditableTextFieldUITests;
-			productReference = FAB6A6492861097D00CFE41E /* EditableTextFieldUITests.xctest */;
+			productReference = FAB6A6492861097D00CFE41E /* EditableTextEditorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAB6A6052860D1FB00CFE41E /* Build configuration list for PBXProject "EditableTextField" */;
+			buildConfigurationList = FAB6A6052860D1FB00CFE41E /* Build configuration list for PBXProject "EditableTextEditor" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +273,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAB6A6092860D1FB00CFE41E /* EditableTextField */,
-				FAB6A6192860D1FE00CFE41E /* EditableTextFieldTests */,
-				FAB6A6482861097D00CFE41E /* EditableTextFieldUITests */,
+				FAB6A6092860D1FB00CFE41E /* EditableTextEditor */,
+				FAB6A6192860D1FE00CFE41E /* EditableTextEditorTests */,
+				FAB6A6482861097D00CFE41E /* EditableTextEditorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,9 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB6A63D2860EE6A00CFE41E /* EditableTextFieldViewModel.swift in Sources */,
-				FAB6A6102860D1FB00CFE41E /* EditableTextFieldView.swift in Sources */,
-				FAB6A60E2860D1FB00CFE41E /* EditableTextFieldApp.swift in Sources */,
+				FAB6A63D2860EE6A00CFE41E /* EditableTextEditorViewModel.swift in Sources */,
+				FAB6A6102860D1FB00CFE41E /* EditableTextEditorView.swift in Sources */,
+				FAB6A60E2860D1FB00CFE41E /* EditableTextEditorApp.swift in Sources */,
 				FAB6A6402860FF4B00CFE41E /* String+Extension.swift in Sources */,
 				FAB6A63B2860D80200CFE41E /* BorderViewModifier.swift in Sources */,
 			);
@@ -323,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB6A642286103C700CFE41E /* EditableTextFieldViewModelTests.swift in Sources */,
+				FAB6A642286103C700CFE41E /* EditableTextEditorViewModelTests.swift in Sources */,
 				FAB6A65828610F0F00CFE41E /* String+Extension.swift in Sources */,
 				FAB6A65628610DF300CFE41E /* Constants.swift in Sources */,
 			);
@@ -333,7 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB6A655286109BA00CFE41E /* EditableTextFieldViewUITests.swift in Sources */,
+				FAB6A655286109BA00CFE41E /* EditableTextEditorViewUITests.swift in Sources */,
 				FAB6A65928610F1000CFE41E /* String+Extension.swift in Sources */,
 				FAB6A65728610DF400CFE41E /* Constants.swift in Sources */,
 			);
@@ -344,12 +344,12 @@
 /* Begin PBXTargetDependency section */
 		FAB6A61C2860D1FE00CFE41E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAB6A6092860D1FB00CFE41E /* EditableTextField */;
+			target = FAB6A6092860D1FB00CFE41E /* EditableTextEditor */;
 			targetProxy = FAB6A61B2860D1FE00CFE41E /* PBXContainerItemProxy */;
 		};
 		FAB6A6502861097D00CFE41E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAB6A6092860D1FB00CFE41E /* EditableTextField */;
+			target = FAB6A6092860D1FB00CFE41E /* EditableTextEditor */;
 			targetProxy = FAB6A64F2861097D00CFE41E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"editabletextfield/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EditableTextEditor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,7 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"editabletextfield/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EditableTextEditor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -551,7 +551,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditableTextField.app/EditableTextField";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditableTextEditor.app/EditableTextEditor";
 			};
 			name = Debug;
 		};
@@ -576,7 +576,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditableTextField.app/EditableTextField";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditableTextEditor.app/EditableTextEditor";
 			};
 			name = Release;
 		};
@@ -627,7 +627,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAB6A6052860D1FB00CFE41E /* Build configuration list for PBXProject "EditableTextField" */ = {
+		FAB6A6052860D1FB00CFE41E /* Build configuration list for PBXProject "EditableTextEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB6A62C2860D1FF00CFE41E /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAB6A62E2860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextField" */ = {
+		FAB6A62E2860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB6A62F2860D1FF00CFE41E /* Debug */,
@@ -645,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAB6A6312860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextFieldTests" */ = {
+		FAB6A6312860D1FF00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB6A6322860D1FF00CFE41E /* Debug */,
@@ -654,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAB6A6512861097D00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextFieldUITests" */ = {
+		FAB6A6512861097D00CFE41E /* Build configuration list for PBXNativeTarget "EditableTextEditorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAB6A6522861097D00CFE41E /* Debug */,

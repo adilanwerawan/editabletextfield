@@ -8,10 +8,10 @@
 import SwiftUI
 import Combine
 
-struct EditableTextFieldView: View {
+struct EditableTextEditorView: View {
     @State var inputText:String = ""
     /// EditableTextFieldViewModel is responsible for the presentation logic
-    @ObservedObject var viewModel:EditableTextFieldViewModel
+    @ObservedObject var viewModel:EditableTextEditorViewModel
     
     // MARK: Constants
     let labelTopPadding = 70.0
@@ -54,6 +54,6 @@ struct EditableTextFieldView: View {
 struct ContentView_Previews: PreviewProvider {
     static var sampleText = ""
     static var previews: some View {
-        EditableTextFieldView(inputText: sampleText, viewModel: EditableTextFieldViewModel())
+        EditableTextEditorView(inputText: sampleText, viewModel: EditableTextEditorViewModel())
     }
 }

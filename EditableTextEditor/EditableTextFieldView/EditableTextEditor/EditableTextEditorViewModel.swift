@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// EditableTextFieldViewModel is responsible for the presentation logic
-final class EditableTextFieldViewModel:ObservableObject{
+final class EditableTextEditorViewModel:ObservableObject{
     // words count publish variable
     @Published var wordsCount = "Words count : 0"
     // Published variable for the text which user will enter into the text field

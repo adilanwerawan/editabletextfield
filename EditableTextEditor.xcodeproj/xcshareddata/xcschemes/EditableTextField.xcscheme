@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAB6A6092860D1FB00CFE41E"
-               BuildableName = "EditableTextField.app"
-               BlueprintName = "EditableTextField"
-               ReferencedContainer = "container:EditableTextField.xcodeproj">
+               BuildableName = "EditableTextEditor.app"
+               BlueprintName = "EditableTextEditor"
+               ReferencedContainer = "container:EditableTextEditor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAB6A6192860D1FE00CFE41E"
-               BuildableName = "EditableTextFieldTests.xctest"
-               BlueprintName = "EditableTextFieldTests"
-               ReferencedContainer = "container:EditableTextField.xcodeproj">
+               BuildableName = "EditableTextEditorTests.xctest"
+               BlueprintName = "EditableTextEditorTests"
+               ReferencedContainer = "container:EditableTextEditor.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAB6A6482861097D00CFE41E"
-               BuildableName = "EditableTextFieldUITests.xctest"
-               BlueprintName = "EditableTextFieldUITests"
-               ReferencedContainer = "container:EditableTextField.xcodeproj">
+               BuildableName = "EditableTextEditorUITests.xctest"
+               BlueprintName = "EditableTextEditorUITests"
+               ReferencedContainer = "container:EditableTextEditor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAB6A6092860D1FB00CFE41E"
-            BuildableName = "EditableTextField.app"
-            BlueprintName = "EditableTextField"
-            ReferencedContainer = "container:EditableTextField.xcodeproj">
+            BuildableName = "EditableTextEditor.app"
+            BlueprintName = "EditableTextEditor"
+            ReferencedContainer = "container:EditableTextEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAB6A6092860D1FB00CFE41E"
-            BuildableName = "EditableTextField.app"
-            BlueprintName = "EditableTextField"
-            ReferencedContainer = "container:EditableTextField.xcodeproj">
+            BuildableName = "EditableTextEditor.app"
+            BlueprintName = "EditableTextEditor"
+            ReferencedContainer = "container:EditableTextEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
