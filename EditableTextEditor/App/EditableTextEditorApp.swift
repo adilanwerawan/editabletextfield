@@ -15,6 +15,8 @@ struct EditableTextFieldApp: App {
             NavigationView{
                 EditableTextEditorView(viewModel: viewModel)
             }
+            // Setting navigationViewStyle as StackNavigationViewStyle
+            // for correctly running into iPad
             .navigationViewStyle(.stack)
         }
     }

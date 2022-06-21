@@ -21,7 +21,7 @@ final class EditableTextEditorViewModel:ObservableObject{
     
     // Placeholder for the input text field
     var enterYourTextLabelValue:String{
-        "Enter the text you want.."
+        "Enter the text you wish :"
     }
     
     var viewTitle:String{

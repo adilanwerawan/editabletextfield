@@ -15,17 +15,18 @@ struct EditableTextEditorView: View {
     
     // MARK: Constants
     let labelTopPadding = 70.0
+    let labelBottomPadding = 5.0
     let textEditorHeight = 230.0
-    let textEditorLeadingTrailingPadding = 24.0
-    let textEditorTopPadding = 10.0
-    let textEditorBottomPadding = 10.0
+    let vStackHorizontalPadding = 24.0
+    let textEditorVerticalPadding = 10.0
     
     var body: some View {
-        VStack{
-            /// Hardcoded text for the label over the text editor
+        VStack(alignment: .leading){
+            // Hardcoded text for the label over the text editor
             Text(viewModel.enterYourTextLabelValue)
                 .padding(.top, labelTopPadding)
-            /// Text editor is responsible for containing the text
+                .padding(.bottom, labelBottomPadding)
+            // Text editor is responsible for containing the text
             TextEditor(
                 text: $viewModel.inputText
             )
@@ -33,9 +34,7 @@ struct EditableTextEditorView: View {
             .disableAutocorrection(true)
             .frame(height: textEditorHeight)
             .bordered()
-            .padding([.leading, .trailing], textEditorLeadingTrailingPadding)
-            .padding(.top, textEditorTopPadding)
-            .padding(.bottom,textEditorBottomPadding)
+            .padding([.bottom], textEditorVerticalPadding)
             .onChange(of: viewModel.inputText) { text in
                 /* On text change inside the text field we are calling the updateWordsCount
                  function of the view model to update the value of the words count */
@@ -43,9 +42,16 @@ struct EditableTextEditorView: View {
             }
             /* wordsCount is the published variable so when its value will be updated through
              view model it will be notified here and update the Text */
-            Text(viewModel.wordsCount)
+            HStack{
+                /* Giving spacer in leading and trailing to place words
+                 count Text horizontally center in the view */
+                Spacer()
+                Text(viewModel.wordsCount)
+                Spacer()
+            }
             Spacer()
         }
+        .padding([.leading, .trailing], vStackHorizontalPadding)
         .navigationTitle(viewModel.viewTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
