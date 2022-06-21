@@ -6,11 +6,8 @@
 //
 
 import SwiftUI
-import Combine
 
 struct EditableTextEditorView: View {
-    
-    @State var inputText:String = ""
     /// EditableTextFieldViewModel is responsible for the presentation logic
     @ObservedObject var viewModel:EditableTextEditorViewModel
     /*

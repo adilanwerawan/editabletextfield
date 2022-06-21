@@ -5,9 +5,8 @@
 //  Created by MacBook on 20/06/2022.
 //
 
-import Foundation
 import SwiftUI
-/// View Modifier for setting the border, rounded rectangle and the shadow to border
+/// View Modifier for setting the border, rounded rectangle
 struct BorderViewModifier:ViewModifier {
     let padding = 5.0
     let cornerRadius = 10.0
