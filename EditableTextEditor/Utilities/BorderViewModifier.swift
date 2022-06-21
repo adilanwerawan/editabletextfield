@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-/// View Modifier for setting the border, rounded rectangle
+/// View Modifier for setting the bordered rounded rectangle
 struct BorderViewModifier:ViewModifier {
     let padding = 5.0
     let cornerRadius = 10.0
